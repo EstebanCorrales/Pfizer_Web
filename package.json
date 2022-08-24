@@ -1,0 +1,29 @@
+{
+  "name": "pfizer_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EstebanCorrales/Pfizer_Web.git"
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Esteban Corrales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EstebanCorrales/Pfizer_Web/issues"
+  },
+  "homepage": "https://github.com/EstebanCorrales/Pfizer_Web#readme",
+  "devDependencies": {
+    "cypress": "^10.2.0",
+    "cypress-mochawesome-reporter": "^3.2.2"
+  }
+}
