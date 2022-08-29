@@ -29,11 +29,12 @@ pipeline{
 
         stage('Testing Aplication'){
             steps{
-                    nodejs(nodeJSInstallationName: 'node-16.16.0'){
-                    sh "NO_COLOR=1 npx cypress run --browser ${BROWSER} --spec ${SPEC}"            
+                nodejs(nodeJSInstallationName: 'node-16.16.0'){
+                    sh "NO_COLOR=1 npx cypress run --browser ${BROWSER} --spec ${SPEC}"
 
                 }
             }
+        }
         
         stage('Deploy'){
             steps{
