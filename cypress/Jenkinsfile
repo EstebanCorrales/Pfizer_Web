@@ -3,14 +3,14 @@ pipeline{
 
     parameters {
         string(name: "SPEC", defaultValue: "cypress/e2e/**/**", description: "Ej: cypress/e2e/pom/*.cy.js")
-        choice(name: "BROWSER", choices: ['chrome', 'firefox'], description: "Seleccione el browser donde desee realizar las pruebas")
+        choice(name: "BROWSER", choices: ['chrome', 'firefox', 'edge'], description: "Seleccione el browser donde desee realizar las pruebas")
     }
 
     options {
-        ansicolor('xterm')
+        ansiColor ('xterm')
     }
-
-    stages{
+    
+     stages{
 
         stage('Build'){
             steps{
@@ -42,8 +42,7 @@ pipeline{
            publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: 'cypress/report', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: ''])
             
         }
+
     }
 
-     
-     
-}   
+}
