@@ -39,7 +39,7 @@ pipeline{
     post{
         always{     
                   
-           publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: 'cypress/report', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: ''])
+           publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: 'cypress/report/html', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: ''])
             
         }
 
