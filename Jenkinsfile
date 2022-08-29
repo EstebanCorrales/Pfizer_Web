@@ -17,7 +17,7 @@ pipeline{
                 echo "Building Application"
             }
         }
-
+/*
         stage('Testing Aplication'){
             steps{
                 bat "npm install cypress@10.2.0 --save-dev"
@@ -25,6 +25,8 @@ pipeline{
 
                 }
             }
+
+ */            
         
         stage('Deploy'){
             steps{
