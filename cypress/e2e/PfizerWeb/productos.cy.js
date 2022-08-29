@@ -36,8 +36,8 @@ describe('Test Sección Productos', () => {
         cy.contains('Productos participantes').click()
 
         //Se valida que el Banner Principal cuente con una propiedad background-imgage y que el logo este. Ambos deben coincidir
-        product.elements.logo().should('have.attr', 'src').should('include', '/UpjohnWeb/images/viatris_upjohn_logos.png')
-        product.elements.bannerppal().should('have.css', 'background-image').should('include', '/UpjohnWeb/images/viatris_upjohn_beneficio_int.jpg')
+        product.elements.logo().should('have.attr', 'src').should('include', '/ViatrisWeb/images/viatris_upjohn_logos.png')
+        product.elements.bannerppal().should('have.css', 'background-image').should('include', '/ViatrisWeb/images/viatris_upjohn_beneficio_int.jpg')
         product.elements.productsIcon().should('have.text', 'PRODUCTOS')
 
     });
@@ -114,47 +114,47 @@ describe('Test Sección Productos', () => {
         //Se valida que las rutas de las opciones del menú redireccionen correctamente
         cy.contains('Programa').click()
         cy.url().should('include', '/Programa')
-        home.clicklinklogo()
+        cy.contains('Productos participantes').click()
 
         cy.contains('Beneficios').click()
         cy.url().should('include', '/Beneficios')
-        home.clicklinklogo()
+        cy.contains('Productos participantes').click()
 
         cy.contains('Productos participantes').click()
         cy.url().should('include', '/Productos')
-        home.clicklinklogo()
+        cy.contains('Productos participantes').click()
 
         cy.contains('Farmacias afiliadas').click()
         cy.url().should('include', '/Farmacias')
-        home.clicklinklogo()
+        cy.contains('Productos participantes').click()
 
         cy.contains('Inscripción de pacientes').click()
         cy.url().should('include', '/InscripcionPacientes')
-        home.clicklinklogo()
+        cy.contains('Productos participantes').click()
 
         cy.contains('Inscripción de Farmacias').click()
         cy.url().should('include', '/InscripcionFarmacias')
-        home.clicklinklogo()
+        cy.contains('Productos participantes').click()
 
         cy.contains('Ingreso de usuario').click()
         cy.url().should('include', '/IngresoUsuario')
-        home.clicklinklogo()
+        cy.contains('Productos participantes').click()
 
         cy.contains('Reglamento del Programa').click()
         cy.url().should('include', '/Reglamento')
-        home.clicklinklogo()
+        cy.contains('Productos participantes').click()
 
         cy.contains('Contacto').click()
         cy.url().should('include', '/Contacto')
-        home.clicklinklogo()
+        cy.contains('Productos participantes').click()
 
         cy.contains('Términos y Condiciones').click()
         cy.url().should('include', '/TerminosCondiciones')
-        home.clicklinklogo()
+        cy.contains('Productos participantes').click()
 
         cy.contains('Preguntas Frecuentes').click()
         cy.url().should('include', '/PreguntasFrecuentes')
-        home.clicklinklogo()
+        cy.contains('Productos participantes').click()
 
         home.elements.divfooter().should('contains.text', '\n                    Línea de Atención al Paciente, Lunes a viernes \n                    De 7:00 a.m. a 6:00 p.m. - \tCosta Rica: (506) 4000-0553 - Guatemala: (502) 2268-6216 - Honduras: (504) 2276-9550 / (504) 2231-3118  \n                    De 9:00 a.m. a 8:00 p.m. - República Dominicana: Santo Domingo 1-(829) 946-1068 Santiago: 1-(849) 937-0841\n')
 

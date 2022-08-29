@@ -13,8 +13,8 @@ class pharmacys {
         pharmacyIcon: () => cy.get('.title-seccion > p'),
         textContent: () => cy.get('.mrg-btm > :nth-child(1) > :nth-child(1)'),
         selectCountry: () => cy.get('#select_pais'), 
-        //pharmacyList: () => cy.get('#div_productos'),
-        pharmacydetails: (productNames) => cy.get('#div_productos').contains(productNames),
+        pharmacyList: () => cy.get('#tbl_Farmacias'),
+        pharmacydetails: (pharmacyNames) => cy.get('#tbl_Farmacias').contains(pharmacyNames),
     }
 
 

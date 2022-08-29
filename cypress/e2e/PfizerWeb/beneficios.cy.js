@@ -32,8 +32,8 @@ describe('Test Sección Beneficios', () => {
         cy.contains('Beneficios').click()
 
         //Se valida que el Banner Principal cuente con una propiedad background-imgage y que el logo este. Ambos deben coincidir
-        benefits.elements.logo().should('have.attr', 'src').should('include', '/UpjohnWeb/images/viatris_upjohn_logos.png')
-        benefits.elements.bannerppal().should('have.css', 'background-image').should('include', '/UpjohnWeb/images/viatris_upjohn_productos_int.jpg')
+        benefits.elements.logo().should('have.attr', 'src').should('include', '/ViatrisWeb/images/viatris_upjohn_logos.png')
+        benefits.elements.bannerppal().should('have.css', 'background-image').should('include', '/ViatrisWeb/images/viatris_upjohn_productos_int.jpg')
         benefits.elements.benefitsIcon().should('have.text', 'BENEFICIOS')
 
     });

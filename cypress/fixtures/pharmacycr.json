@@ -1,25 +1,40 @@
 [
 
     {
-      "name": "Lipitor 10mg x 30 Tabletas"
+      "farmacia": "FARMACIA DEMO 2 PFIZER", 
+      "direccion": "SAN JOSÉ COSTA RICA", 
+      "telefono": "(506) 2214-0637", 
+      "horario": "De 9:00 a.m a 8:00 p.m"
     },
     {
-      "name": "Lipitor 20mg x 30 Tabletas"
+      "farmacia": "FARMACIA DEMO PFIZER",
+      "direccion": "SAN JOSÉ COSTA RICA", 
+      "telefono": "(506) 2214-0637", 
+      "horario": "De 6:00 a.m a 8:00 p.m"
     },
     {
-      "name": "Lipitor 40mg x 30 Tabletas"
+      "farmacia": "FARMACIA DEMO PFIZER 3",
+      "direccion": "SAN JOSÉ", 
+      "telefono": "25242302", 
+      "horario": "De 8:00 a.m a 7:00 p.m"
     },
     {
-      "name": "Lipitor 80mg x 14 Tabletas"
+      "farmacia": "LA BOMBA CURRIDABAT 2",
+      "direccion": "SAN JOSÉ CURRIDABAT, 25 METROS OESTE DEL CRUCE DE CONCEPCIÓN", 
+      "telefono": "(506) 2272-1143", 
+      "horario": "De 7:00 a.m a 10:00 p.m"
     },
     {
-      "name": "Norvasc 10mg x 30 Tabletas"
+      "farmacia": "LA BOMBA SAN PEDRO",
+      "direccion": "100 ESTE DEL PARQUE", 
+      "telefono": "2202-0303", 
+      "horario": "De 11:00 a.m a 7:00 p.m"
     },
     {
-      "name": "Norvasc 5mg x 14 Tabletas"
-    },
-    {
-        "name": "Norvasc 5mg x 30 Tabletas"   
+      "farmacia": "LA BOMBA ZAPOTE",
+      "direccion": "25 METROS SUR, DE LA IGLESIA CATÓLICA", 
+      "telefono": "(506) 2253-3485", 
+      "horario": "De 9:00 a.m a 8:00 p.m"
     }
 
 ]
