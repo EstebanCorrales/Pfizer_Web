@@ -21,7 +21,7 @@ pipeline{
         stage('Testing Aplication'){
             steps{
                 bat "npm install cypress@10.2.0 --save-dev"
-                bat "npx cypress run --browser ${BROWSER} --spec ${SPEC}"               
+                bat "npx cypress run"               
 
                 }
             }
@@ -39,7 +39,7 @@ pipeline{
     post{
         always{     
                   
-           publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: 'cypress/report', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: ''])
+           publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: 'cypress/reports/html', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: ''])
             
         }
 
