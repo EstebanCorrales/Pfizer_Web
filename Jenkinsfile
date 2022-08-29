@@ -18,10 +18,19 @@ pipeline{
             }
         }
 
+        stage('Installing Dependencies'){
+
+            steps{
+                nodejs(nodeJSInstallationName: 'node-16.16.0'){
+                    sh "npm install --force"
+                }
+            }
+        }
+
         stage('Testing Aplication'){
             steps{
-                bat "npm i"
-                bat "npx cypress run --browser ${BROWSER} --spec ${SPEC}"               
+                    nodejs(nodeJSInstallationName: 'node-16.16.0'){
+                    sh "NO_COLOR=1 npx cypress run --browser ${BROWSER} --spec ${SPEC}"            
 
                 }
             }
@@ -39,7 +48,7 @@ pipeline{
     post{
         always{     
                   
-           publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: 'cypress/report', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: ''])
+           publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: 'cypress/reports/html', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: ''])
             
         }
 
