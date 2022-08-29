@@ -22,7 +22,7 @@ pipeline{
                     sh "npm install --force"
                 }
             }
-        } 
+        }/
         stage('API Testing'){
             steps{
                 nodejs(nodeJSInstallationName: 'node-16.16.0'){
@@ -37,7 +37,10 @@ pipeline{
             }
         }
 
-     
+        
+    }
+
+    /
     
     post{
         always{     
@@ -45,7 +48,8 @@ pipeline{
             publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: 'cypress/reports/html', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: ''])
             
         }
-    }   
+    }
+
+    
      
 }   
-}
