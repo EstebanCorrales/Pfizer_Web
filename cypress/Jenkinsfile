@@ -3,53 +3,47 @@ pipeline{
 
     parameters {
         string(name: "SPEC", defaultValue: "cypress/e2e/**/**", description: "Ej: cypress/e2e/pom/*.cy.js")
-        choice(name: "BROWSER", choices: ['chrome', 'electron'], description: "Seleccione el browser donde desee realizar las pruebas")
+        choice(name: "BROWSER", choices: ['chrome', 'firefox'], description: "Seleccione el browser donde desee realizar las pruebas")
     }
 
-    options{
-        ansiColor('xterm')
+    options {
+        ansicolor('xterm')
     }
 
     stages{
+
         stage('Build'){
             steps{
                 echo "Building Application"
             }
         }
-        stage('Installing Dependencies'){
+
+        stage('Testing Aplication'){
             steps{
-                nodejs(nodeJSInstallationName: 'node-16.16.0'){
-                    sh "npm install --force"
-                }
-            }
-        }/
-        stage('API Testing'){
-            steps{
-                nodejs(nodeJSInstallationName: 'node-16.16.0'){
-                    sh "NO_COLOR=1 npx cypress run --browser ${BROWSER} --spec ${SPEC}"
+                bat "mpn i"
+                bat "npx cypress run --browser $(BROWSER) --spec $(SPEC)"               
 
                 }
             }
-        }
+        
         stage('Deploy'){
             steps{
-                echo "Deploying the application"
+                echo "Deploying the Application"
             }
         }
 
         
     }
-
-    /
+    
     
     post{
         always{     
                   
-            publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: 'cypress/reports/html', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: ''])
+           publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: 'cypress/report', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: ''])
             
         }
     }
 
-    
+     
      
 }   
