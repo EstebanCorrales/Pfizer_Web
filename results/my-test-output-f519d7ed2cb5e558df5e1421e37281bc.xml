@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="16.6990" tests="24" failures="6">
+  <testsuite name="Root Suite" timestamp="2022-09-01T19:30:50" tests="0" file="cypress\e2e\PfizerWeb\farmacias.cy.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Test Sección Farmacias" timestamp="2022-09-01T19:30:50" tests="24" time="16.6990" failures="6">
+    <testcase name="Test Sección Farmacias Verificación Menús del Header" time="1.2010" classname="Verificación Menús del Header">
+    </testcase>
+    <testcase name="Test Sección Farmacias Validación Banner del Header, Icono y Logo" time="0.3610" classname="Validación Banner del Header, Icono y Logo">
+    </testcase>
+    <testcase name="Test Sección Farmacias Validación Contenido de la sección medica" time="0.3900" classname="Validación Contenido de la sección medica">
+    </testcase>
+    <testcase name="Test Sección Farmacias Validación Dropdowm Farmacias y Lista Costa Rica" time="0.3290" classname="Validación Dropdowm Farmacias y Lista Costa Rica">
+    </testcase>
+    <testcase name="Test Sección Farmacias FARMACIA DEMO 2 PFIZER" time="0.0000" classname="FARMACIA DEMO 2 PFIZER">
+      <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;FARMACIA DEMO 2 PFIZER&apos; within the element: &lt;table#tbl_Farmacias.table.table-striped.table-bordered.table-hover.dataTable.no-footer&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'FARMACIA DEMO 2 PFIZER' within the element: <table#tbl_Farmacias.table.table-striped.table-bordered.table-hover.dataTable.no-footer> but never did.
+    at Context.eval (http://192.168.0.30/__cypress/tests?p=cypress\e2e\PfizerWeb\farmacias.cy.js:203:59)]]></failure>
+    </testcase>
+    <testcase name="Test Sección Farmacias FARMACIA DEMO PFIZER" time="0.0000" classname="FARMACIA DEMO PFIZER">
+      <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;FARMACIA DEMO PFIZER&apos; within the element: &lt;table#tbl_Farmacias.table.table-striped.table-bordered.table-hover.dataTable.no-footer&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'FARMACIA DEMO PFIZER' within the element: <table#tbl_Farmacias.table.table-striped.table-bordered.table-hover.dataTable.no-footer> but never did.
+    at Context.eval (http://192.168.0.30/__cypress/tests?p=cypress\e2e\PfizerWeb\farmacias.cy.js:203:59)]]></failure>
+    </testcase>
+    <testcase name="Test Sección Farmacias FARMACIA DEMO PFIZER 3" time="0.0000" classname="FARMACIA DEMO PFIZER 3">
+      <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;FARMACIA DEMO PFIZER 3&apos; within the element: &lt;table#tbl_Farmacias.table.table-striped.table-bordered.table-hover.dataTable.no-footer&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'FARMACIA DEMO PFIZER 3' within the element: <table#tbl_Farmacias.table.table-striped.table-bordered.table-hover.dataTable.no-footer> but never did.
+    at Context.eval (http://192.168.0.30/__cypress/tests?p=cypress\e2e\PfizerWeb\farmacias.cy.js:203:59)]]></failure>
+    </testcase>
+    <testcase name="Test Sección Farmacias LA BOMBA CURRIDABAT 2" time="0.0000" classname="LA BOMBA CURRIDABAT 2">
+      <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;LA BOMBA CURRIDABAT 2&apos; within the element: &lt;table#tbl_Farmacias.table.table-striped.table-bordered.table-hover.dataTable.no-footer&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'LA BOMBA CURRIDABAT 2' within the element: <table#tbl_Farmacias.table.table-striped.table-bordered.table-hover.dataTable.no-footer> but never did.
+    at Context.eval (http://192.168.0.30/__cypress/tests?p=cypress\e2e\PfizerWeb\farmacias.cy.js:203:59)]]></failure>
+    </testcase>
+    <testcase name="Test Sección Farmacias LA BOMBA SAN PEDRO" time="0.0000" classname="LA BOMBA SAN PEDRO">
+      <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;LA BOMBA SAN PEDRO&apos; within the element: &lt;table#tbl_Farmacias.table.table-striped.table-bordered.table-hover.dataTable.no-footer&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'LA BOMBA SAN PEDRO' within the element: <table#tbl_Farmacias.table.table-striped.table-bordered.table-hover.dataTable.no-footer> but never did.
+    at Context.eval (http://192.168.0.30/__cypress/tests?p=cypress\e2e\PfizerWeb\farmacias.cy.js:203:59)]]></failure>
+    </testcase>
+    <testcase name="Test Sección Farmacias LA BOMBA ZAPOTE" time="0.0000" classname="LA BOMBA ZAPOTE">
+      <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;LA BOMBA ZAPOTE&apos; within the element: &lt;table#tbl_Farmacias.table.table-striped.table-bordered.table-hover.dataTable.no-footer&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'LA BOMBA ZAPOTE' within the element: <table#tbl_Farmacias.table.table-striped.table-bordered.table-hover.dataTable.no-footer> but never did.
+    at Context.eval (http://192.168.0.30/__cypress/tests?p=cypress\e2e\PfizerWeb\farmacias.cy.js:203:59)]]></failure>
+    </testcase>
+    <testcase name="Test Sección Farmacias Validación Dropdowm Farmacias y Lista Honduras" time="0.2620" classname="Validación Dropdowm Farmacias y Lista Honduras">
+    </testcase>
+    <testcase name="Test Sección Farmacias FARMACIA KIELSA 004 - ANERI CENTRO" time="0.8520" classname="FARMACIA KIELSA 004 - ANERI CENTRO">
+    </testcase>
+    <testcase name="Test Sección Farmacias Validación Dropdowm Farmacias y Lista Guatemala" time="0.2310" classname="Validación Dropdowm Farmacias y Lista Guatemala">
+    </testcase>
+    <testcase name="Test Sección Farmacias FARMACIA FAYCO UNO" time="0.3810" classname="FARMACIA FAYCO UNO">
+    </testcase>
+    <testcase name="Test Sección Farmacias FARMACIA FAYCO VALPAI" time="0.1490" classname="FARMACIA FAYCO VALPAI">
+    </testcase>
+    <testcase name="Test Sección Farmacias FAYCO ARRAZOLA" time="0.1470" classname="FAYCO ARRAZOLA">
+    </testcase>
+    <testcase name="Test Sección Farmacias FAYCO BELLA AURORA" time="0.1250" classname="FAYCO BELLA AURORA">
+    </testcase>
+    <testcase name="Test Sección Farmacias FAYCO BELLA AURORA II" time="0.1220" classname="FAYCO BELLA AURORA II">
+    </testcase>
+    <testcase name="Test Sección Farmacias FAYCO C.C. MIX" time="0.1250" classname="FAYCO C.C. MIX">
+    </testcase>
+    <testcase name="Test Sección Farmacias FAYCO CAYALÁ" time="0.1440" classname="FAYCO CAYALÁ">
+    </testcase>
+    <testcase name="Test Sección Farmacias FAYCO CAÑADA EXPRESS" time="0.1400" classname="FAYCO CAÑADA EXPRESS">
+    </testcase>
+    <testcase name="Test Sección Farmacias FAYCO CENTRO" time="0.1400" classname="FAYCO CENTRO">
+    </testcase>
+    <testcase name="Test Sección Farmacias FAYCO CONCEPCION" time="0.1140" classname="FAYCO CONCEPCION">
+    </testcase>
+    <testcase name="Test Sección Farmacias Verificación Menús del Footer" time="11.4860" classname="Verificación Menús del Footer">
+    </testcase>
+  </testsuite>
+</testsuites>

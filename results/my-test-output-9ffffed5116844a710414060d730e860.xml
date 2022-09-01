@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.8570" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-09-01T19:31:44" tests="0" file="cypress\e2e\PfizerWeb\home.cy.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Test Home del Sitio Web" timestamp="2022-09-01T19:31:44" tests="6" time="15.8570" failures="0">
+    <testcase name="Test Home del Sitio Web Verificación Menús del Header" time="1.8390" classname="Verificación Menús del Header">
+    </testcase>
+    <testcase name="Test Home del Sitio Web Valida Sección del Header" time="1.4510" classname="Valida Sección del Header">
+    </testcase>
+    <testcase name="Test Home del Sitio Web Validación Sección El Programa" time="0.7130" classname="Validación Sección El Programa">
+    </testcase>
+    <testcase name="Test Home del Sitio Web Validación Sección Beneficios" time="0.8050" classname="Validación Sección Beneficios">
+    </testcase>
+    <testcase name="Test Home del Sitio Web Validación Sección Farmacias Participantes" time="0.8890" classname="Validación Sección Farmacias Participantes">
+    </testcase>
+    <testcase name="Test Home del Sitio Web Verificación Menús del Footer" time="10.1600" classname="Verificación Menús del Footer">
+    </testcase>
+  </testsuite>
+</testsuites>

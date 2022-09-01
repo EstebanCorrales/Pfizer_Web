@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="17.5200" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-09-01T19:30:24" tests="0" file="cypress\e2e\PfizerWeb\beneficios.cy.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Test Sección Beneficios" timestamp="2022-09-01T19:30:24" tests="4" time="17.5200" failures="0">
+    <testcase name="Test Sección Beneficios Verificación Menús del Header" time="2.7270" classname="Verificación Menús del Header">
+    </testcase>
+    <testcase name="Test Sección Beneficios Validación Banner del Header, Icono y Logo" time="0.4260" classname="Validación Banner del Header, Icono y Logo">
+    </testcase>
+    <testcase name="Test Sección Beneficios Validación Contenido de la sección medica" time="0.3940" classname="Validación Contenido de la sección medica">
+    </testcase>
+    <testcase name="Test Sección Beneficios Verificación Menús del Footer" time="13.9730" classname="Verificación Menús del Footer">
+    </testcase>
+  </testsuite>
+</testsuites>
