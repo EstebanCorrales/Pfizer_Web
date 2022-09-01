@@ -1,7 +1,8 @@
 class index {
 
     navigate() {
-        cy.visit('http://192.168.0.30/ViatrisWeb/')
+        //cy.visit('http://192.168.0.30/ViatrisWeb/')
+        cy.visit('https://uatviatrisweb.conexus-group.com')
     }
 
     elements = {
