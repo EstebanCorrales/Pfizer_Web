@@ -27,7 +27,6 @@ class index {
         btntextpharmacy: () => cy.get('.card-drcha > .text > .btn-orange'),
         divfooter: () => cy.get('.programa > :nth-child(2)')
 
-
     }
 
     clicklinklogo() {
