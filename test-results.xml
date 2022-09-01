@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="19.1140" tests="24" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-09-01T17:03:06" tests="0" file="cypress\e2e\PfizerWeb\productos.cy.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Test Sección Productos" timestamp="2022-09-01T17:03:06" tests="24" time="19.1140" failures="0">
+    <testcase name="Test Sección Productos Verificación Menús del Header" time="8.7780" classname="Verificación Menús del Header">
+    </testcase>
+    <testcase name="Test Sección Productos Validación Banner del Header, Icono y Logo" time="0.2380" classname="Validación Banner del Header, Icono y Logo">
+    </testcase>
+    <testcase name="Test Sección Productos Validación Contenido de la sección medica" time="0.1680" classname="Validación Contenido de la sección medica">
+    </testcase>
+    <testcase name="Test Sección Productos Validación Dropdowm Productos y Lista Costa Rica" time="0.3290" classname="Validación Dropdowm Productos y Lista Costa Rica">
+    </testcase>
+    <testcase name="Test Sección Productos Lipitor 10mg x 30 Tabletas" time="0.0590" classname="Lipitor 10mg x 30 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Lipitor 20mg x 30 Tabletas" time="0.0220" classname="Lipitor 20mg x 30 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Lipitor 40mg x 30 Tabletas" time="0.0320" classname="Lipitor 40mg x 30 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Lipitor 80mg x 14 Tabletas" time="0.0210" classname="Lipitor 80mg x 14 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Norvasc 10mg x 30 Tabletas" time="0.0240" classname="Norvasc 10mg x 30 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Norvasc 5mg x 14 Tabletas" time="0.0220" classname="Norvasc 5mg x 14 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Norvasc 5mg x 30 Tabletas" time="0.0180" classname="Norvasc 5mg x 30 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Validación Dropdowm Productos y Lista Honduras" time="0.1730" classname="Validación Dropdowm Productos y Lista Honduras">
+    </testcase>
+    <testcase name="Test Sección Productos Validación Dropdowm Productos y Lista Guatemala" time="0.1810" classname="Validación Dropdowm Productos y Lista Guatemala">
+    </testcase>
+    <testcase name="Test Sección Productos Validación Dropdowm Productos y Lista República Dominicana" time="0.3900" classname="Validación Dropdowm Productos y Lista República Dominicana">
+    </testcase>
+    <testcase name="Test Sección Productos Caduet 5/10mg x 14 Tabletas" time="0.0490" classname="Caduet 5/10mg x 14 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Caduet 5/20mg x 14 Tabletas" time="0.0200" classname="Caduet 5/20mg x 14 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Caduet 5/40mg x 14 Tabletas" time="0.0240" classname="Caduet 5/40mg x 14 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Lipitor 10mg x 30 Tabletas" time="0.0180" classname="Lipitor 10mg x 30 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Lipitor 20mg x 30 Tabletas" time="0.0260" classname="Lipitor 20mg x 30 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Lipitor 40mg x 30 Tabletas" time="0.0210" classname="Lipitor 40mg x 30 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Lipitor 80mg x 14 Tabletas" time="0.0210" classname="Lipitor 80mg x 14 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Norvasc 10mg x 30 Tabletas" time="0.0170" classname="Norvasc 10mg x 30 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Norvasc 5mg x 30 Tabletas" time="0.0200" classname="Norvasc 5mg x 30 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Verificación Menús del Footer" time="8.4430" classname="Verificación Menús del Footer">
+    </testcase>
+  </testsuite>
+</testsuites>
