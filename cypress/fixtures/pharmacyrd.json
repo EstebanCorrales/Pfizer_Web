@@ -1,0 +1,64 @@
+[
+
+    {
+      "farmacia": "Farmacia_26119", 
+      "direccion": "CALLE GUAROCUYA NO. 69 ENSANCHE QUISQUEYA STO. DGO.", 
+      "telefono": "+1XXXXXXXXXXX44", 
+      "horario": "De 7:00 a.m a 10:00 p.m"
+    },
+    {
+      "farmacia": "Farmacia_26124",
+      "direccion": "AV. VENEZUELA NO. 75 PLAZA PATRIZO, ENS. OZAMA SANTO DOMINGO ESTE", 
+      "telefono": "(8XXXXXXXXXX00", 
+      "horario": "De 7:00 a.m a 0:00 a.m"
+    },
+    {
+      "farmacia": "Farmacia_26128",
+      "direccion": "AV. GUSTAVO MEJÍA RICART NO. 24.", 
+      "telefono": "80XXXXXXXX00", 
+      "horario": "De 8:00 a.m a 11:59 p.m"
+    },
+    {
+      "farmacia": "Farmacia_26137",
+      "direccion": "AV. BOLIVAR NO. 251.", 
+      "telefono": "(8XXXXXXXXXX67", 
+      "horario": "De 8:00 a.m a 10:00 p.m"
+    },
+    {
+      "farmacia": "Farmacia_26138",
+      "direccion": "AV. MÁXIMO GÓMEZ NO. 34.", 
+      "telefono": "(8XXXXXXXXXX67", 
+      "horario": "De 8:00 a.m a 10:00 p.m"
+    },
+    {
+      "farmacia": "Farmacia_26139",
+      "direccion": "AV. 27 DE FEBRERO NO. 221 CASI ESQ. TIRADENTES, LA ESPERILLA.", 
+      "telefono": "(8XXXXXXXXXX67", 
+      "horario": "De 0:00 a.m a 11:59 p.m"
+    },
+    {
+      "farmacia": "Farmacia_26140",
+      "direccion": "AV. MÉXICO NO. 40.", 
+      "telefono": "(8XXXXXXXXXX67", 
+      "horario": "De 8:00 a.m a 11:00 p.m"
+    },
+    {
+      "farmacia": "Farmacia_26141",
+      "direccion": "C/Luis Amiama Tio No.76 Santo Domingo", 
+      "telefono": "(8XXXXXXXXXX67", 
+      "horario": "De 0:00 a.m a 11:59 p.m"
+    },
+    {
+      "farmacia": "Farmacia_26142",
+      "direccion": "C/ PEDRO HENRÍQUEZ UREÑA ESQ. CÉSAR DARGAN.", 
+      "telefono": "(8XXXXXXXXXX67", 
+      "horario": "De 8:00 a.m a 11:00 p.m"
+    },
+    {
+      "farmacia": "Farmacia_26143",
+      "direccion": "C/FRANCISCO DEL ROSARIO SANCHEZ #118, SECTOR MIRAMAR", 
+      "telefono": "(8XXXXXXXXXX67", 
+      "horario": "De 8:00 a.m a 10:00 p.m"
+    }       
+
+]

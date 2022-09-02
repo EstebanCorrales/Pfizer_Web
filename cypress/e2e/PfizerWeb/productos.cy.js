@@ -4,6 +4,8 @@ const product = require('../../pages/products')
 const content = require('../../fixtures/producttext.json')
 const productDetailscr = require('../../fixtures/productsdetailcr.json')
 const productDetailsrd = require('../../fixtures/productsdetailrd.json')
+const productDetailshn = require('../../fixtures/productsdetailrd.json')
+const productDetailsgt = require('../../fixtures/productsdetailrd.json')
 
 
 describe('Test Sección Productos', () => {
@@ -36,8 +38,8 @@ describe('Test Sección Productos', () => {
         cy.contains('Productos participantes').click()
 
         //Se valida que el Banner Principal cuente con una propiedad background-imgage y que el logo este. Ambos deben coincidir
-        product.elements.logo().should('have.attr', 'src').should('include', '/ViatrisWeb/images/viatris_upjohn_logos.png')
-        product.elements.bannerppal().should('have.css', 'background-image').should('include', '/ViatrisWeb/images/viatris_upjohn_beneficio_int.jpg')
+        product.elements.logo().should('have.attr', 'src').should('include', '/images/viatris_upjohn_logos.png')
+        product.elements.bannerppal().should('have.css', 'background-image').should('include', 'https://uatviatrisweb.conexus-group.com/images/viatris_upjohn_beneficio_int.jpg')
         product.elements.productsIcon().should('have.text', 'PRODUCTOS')
 
     });
@@ -76,18 +78,38 @@ describe('Test Sección Productos', () => {
 
     });
 
-
     it('Validación Dropdowm Productos y Lista Honduras', () => {
 
+        cy.contains('Productos participantes').click()
+
         product.elements.selectCountry().select('Honduras')
-        product.elements.productList().should('is.not.visible')
+
+
+    });
+
+    productDetailshn.forEach(element => {
+        it(element.name, function () {
+
+            product.elements.productsdetails(element.name).should("have.text", element.name)
+        });
 
     });
 
     it('Validación Dropdowm Productos y Lista Guatemala', () => {
 
+        cy.contains('Productos participantes').click()
+
         product.elements.selectCountry().select('Guatemala')
-        product.elements.productList().should('is.not.visible')
+
+
+    });
+    
+
+    productDetailsgt.forEach(element => {
+        it(element.name, function () {
+
+            product.elements.productsdetails(element.name).should("have.text", element.name)
+        });
 
     });
 
