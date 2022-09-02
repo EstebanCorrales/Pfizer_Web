@@ -1,10 +1,64 @@
 [
 
     {
-      "farmacia": "FARMACIA KIELSA 004 - ANERI CENTRO", 
-      "direccion": "EL CENTRO FRENTE A LA CASA CURAL", 
-      "telefono": "(504) 3217-2048/ 3186-4556", 
-      "horario": "De 7:00 a.m a 8:00 p.m"
+      "farmacia": "Farmacia_11114", 
+      "direccion": "AVE CIRCUNVALACION", 
+      "telefono": "(5XXXXXXXXXXX15", 
+      "horario": "De 9:00 a.m a 8:00 p.m"
+    },
+    {
+      "farmacia": "Farmacia_11119", 
+      "direccion": "Avenida 14 de julio enfrente de ultra motor", 
+      "telefono": "(5XXXXXXXXXXX93", 
+      "horario": "De 5:00 a.m a 8:00 p.m"
+    },
+    {
+      "farmacia": "Farmacia_11137", 
+      "direccion": "SAN ISIDRO CALLE 13 ENTRE AVE. 14 DE JULIO Y FTE. A LA MONTA±ITA", 
+      "telefono": "(5XXXXXXXXXXX15", 
+      "horario": "De Invalid date:undefined a.m a Invalid date:undefined a.m"
+    },
+    {
+      "farmacia": "Farmacia_11142", 
+      "direccion": "BV. C.E.E CONTIGUO A POSTA POLICIAL BO. LA GRANJA COMAYAGUELA M.D.C.", 
+      "telefono": "(5XXXXXXXXXXX35", 
+      "horario": "De 7:00 a.m a 9:00 p.m"
+    },
+    {
+      "farmacia": "Farmacia_11143", 
+      "direccion": "COL. PALMIRA AVE SAN JUAN LINDO CASA 532 TEGUCIGALPA", 
+      "telefono": "(5XXXXXXXXXXX63", 
+      "horario": "De 7:00 a.m a 5:00 p.m"
+    },
+    {
+      "farmacia": "Farmacia_11252", 
+      "direccion": "COL TEPEYAC SUBIDA AL MEDICAL CENTER FTE A CAFEMANIA", 
+      "telefono": "(5XXXXXXXXXXX18", 
+      "horario": "De 7:00 a.m a 10:00 p.m"
+    },
+    {
+      "farmacia": "Farmacia_11255", 
+      "direccion": "CENTRO COEMRCIAL VILLAS DEL SOL", 
+      "telefono": "(5XXXXXXXXXXX16", 
+      "horario": "De 7:00 a.m a 10:00 p.m"
+    },
+    {
+      "farmacia": "Farmacia_11257", 
+      "direccion": "COMAYAGUELA ENTRE 4Y5 AVE FTE A INST INMACULADA", 
+      "telefono": "(5XXXXXXXXXXX41", 
+      "horario": "De 7:00 a.m a 9:00 p.m"
+    },
+    {
+      "farmacia": "Farmacia_11258", 
+      "direccion": "COL AMERICA AVE INDPENDIENTE 8 Y 9 CALLE TEG", 
+      "telefono": "(5XXXXXXXXXXX08", 
+      "horario": "De 7:00 a.m a 10:00 p.m"
+    },
+    {
+      "farmacia": "Farmacia_11259", 
+      "direccion": "COL KENEDY CLLE DEL COMERCIO FTE A LA CURACAO", 
+      "telefono": "(5XXXXXXXXXXX04", 
+      "horario": "De 7:00 a.m a 10:00 p.m"
     }
 
 ]

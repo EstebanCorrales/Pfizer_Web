@@ -1,40 +1,64 @@
 [
 
     {
-      "farmacia": "FARMACIA DEMO 2 PFIZER", 
-      "direccion": "SAN JOSÉ COSTA RICA", 
-      "telefono": "(506) 2214-0637", 
-      "horario": "De 9:00 a.m a 8:00 p.m"
+      "farmacia": "Farmacia_10039", 
+      "direccion": "PEREZ ZELEDÓN, PLAZA MONTE GENERAL", 
+      "telefono": "(5XXXXXXXXXXX67", 
+      "horario": "De 11:00 a.m a 9:00 p.m"
     },
     {
-      "farmacia": "FARMACIA DEMO PFIZER",
-      "direccion": "SAN JOSÉ COSTA RICA", 
-      "telefono": "(506) 2214-0637", 
-      "horario": "De 6:00 a.m a 8:00 p.m"
+      "farmacia": "Farmacia_10040",
+      "direccion": "POCOCI GUAPILES. DIAGONAL AL MAS POR MENOS.", 
+      "telefono": "(5XXXXXXXXXXX60", 
+      "horario": "De 7:00 a.m a 8:00 p.m"
     },
     {
-      "farmacia": "FARMACIA DEMO PFIZER 3",
-      "direccion": "SAN JOSÉ", 
-      "telefono": "25242302", 
-      "horario": "De 8:00 a.m a 7:00 p.m"
+      "farmacia": "Farmacia_12578",
+      "direccion": "ALAJUELA, UPALA. DIAGONAL A IMPORTADORA MONGE", 
+      "telefono": "(5XXXXXXXXXXX84", 
+      "horario": "De 7:30 a.m a 8:00 p.m"
     },
     {
-      "farmacia": "LA BOMBA CURRIDABAT 2",
-      "direccion": "SAN JOSÉ CURRIDABAT, 25 METROS OESTE DEL CRUCE DE CONCEPCIÓN", 
-      "telefono": "(506) 2272-1143", 
+      "farmacia": "Farmacia_12769",
+      "direccion": "PLAZA LA RIOJA, SEGUNDO LOCAL, ROBLE DE PUNTARENAS", 
+      "telefono": "(5XXXXXXXXXXXXXXXXXXXXXX40", 
+      "horario": "De 8:00 a.m a 9:25 p.m"
+    },
+    {
+      "farmacia": "Farmacia_12976",
+      "direccion": "75 MTS OESTE DEL MERCADO MUNICIPAL DE OROTINA", 
+      "telefono": "(5XXXXXXXXXXX60", 
+      "horario": "De 7:30 a.m a 9:26 p.m"
+    },
+    {
+      "farmacia": "Farmacia_13004",
+      "direccion": "HEREDIA, SANTO DOMINGO, AVENIDA 2. CENTRO COMERCIAL CASA VIEJA, LOCAL 4.", 
+      "telefono": "(5XXXXXXXXXXX84", 
+      "horario": "De 8:00 a.m a 8:00 p.m"
+    },
+    {
+      "farmacia": "Farmacia_13117",
+      "direccion": "CENTRO COMERCIAL CITY, DENTRO DEL EKONO", 
+      "telefono": "(5XXXXXXXXXXX97", 
+      "horario": "De 8:00 a.m a 6:00 p.m"
+    },
+    {
+      "farmacia": "Farmacia_13231",
+      "direccion": "CARRETERA PRINCIPAL SAN FRANCISCO, CENTRO COMERCIAL EL FARO", 
+      "telefono": "(5XXXXXXXXXXX30", 
+      "horario": "De 8:00 a.m a 8:00 p.m"
+    },
+    {
+      "farmacia": "Farmacia_13696",
+      "direccion": "SAN RAFAEL DE OREAMUNO, 25MTS NORTE DE LA AGENCIA DEL BANCO NACIONAL", 
+      "telefono": "(5XXXXXXXXXXXXXXXXXXXXXX49", 
       "horario": "De 7:00 a.m a 10:00 p.m"
     },
     {
-      "farmacia": "LA BOMBA SAN PEDRO",
-      "direccion": "100 ESTE DEL PARQUE", 
-      "telefono": "2202-0303", 
-      "horario": "De 11:00 a.m a 7:00 p.m"
-    },
-    {
-      "farmacia": "LA BOMBA ZAPOTE",
-      "direccion": "25 METROS SUR, DE LA IGLESIA CATÓLICA", 
-      "telefono": "(506) 2253-3485", 
-      "horario": "De 9:00 a.m a 8:00 p.m"
-    }
+      "farmacia": "Farmacia_13699",
+      "direccion": "CARTAGO CENTRO, 100M SUR DEL BANCO NACIONAL", 
+      "telefono": "(5XXXXXXXXXXXXXXXXXXXXXX71", 
+      "horario": "De 7:00 a.m a 10:00 p.m"
+    }       
 
 ]

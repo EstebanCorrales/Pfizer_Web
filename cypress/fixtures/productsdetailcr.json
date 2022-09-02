@@ -1,6 +1,15 @@
 [
 
     {
+      "name": "Caduet 5/10mg x 14 Tabletas"
+    },
+    {
+      "name": "Caduet 5/20mg x 14 Tabletas"
+    },
+    {
+      "name": "Caduet 5/40mg x 14 Tabletas"
+    },
+    {
       "name": "Lipitor 10mg x 30 Tabletas"
     },
     {
@@ -10,16 +19,13 @@
       "name": "Lipitor 40mg x 30 Tabletas"
     },
     {
-      "name": "Lipitor 80mg x 14 Tabletas"
+        "name": "Lipitor 80mg x 14 Tabletas"   
     },
     {
-      "name": "Norvasc 10mg x 30 Tabletas"
+      "name": "Norvasc 5mg x 14 Tabletas"   
     },
     {
-      "name": "Norvasc 5mg x 14 Tabletas"
-    },
-    {
-        "name": "Norvasc 5mg x 30 Tabletas"   
-    }
+      "name": "Norvasc 5mg x 30 Tabletas"   
+    }  
 
 ]

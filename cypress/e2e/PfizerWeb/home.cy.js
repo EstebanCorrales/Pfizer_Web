@@ -25,9 +25,9 @@ describe('Test Home del Sitio Web', () => {
 
     it('Valida Sección del Header', () => {
 
-        home.elements.bannerppal().should('have.css', 'background-image').should('include', '/ViatrisWeb/images/viatris_upjohn_un_programa_para_ti.jpg')
+        home.elements.bannerppal().should('have.css', 'background-image').should('include', 'https://uatviatrisweb.conexus-group.com/images/viatris_upjohn_un_programa_para_ti.jpg')
         //Se valida que el contenido de la sección superior derecha del Header este correcto
-        home.elements.logo().find('img').should('have.attr', 'src').should('include', '/ViatrisWeb/images/viatris_upjohn_logo.png')
+        home.elements.logo().find('img').should('have.attr', 'src').should('include', '/images/viatris_upjohn_logo.png')
         home.elements.titleppal().should('have.text', '¡UN PROGRAMA PARA TÍ!')
         home.elements.textheader().should('have.text', 'Tu salud es lo más importante por lo  que hemos creado un programa  soló para ti.')
         home.clickbtntextheader()
@@ -41,7 +41,7 @@ describe('Test Home del Sitio Web', () => {
     it('Validación Sección El Programa', () => {
 
         //Se valida contenido y elementos sección El Programa
-        home.elements.img_program().should('have.css', 'background-image').should('include', '/ViatrisWeb/images/viatris_upjohn_programa.jpg')
+        home.elements.img_program().should('have.css', 'background-image').should('include', 'https://uatviatrisweb.conexus-group.com/images/viatris_upjohn_programa.jpg')
         home.elements.tittle_program().should('have.text', 'SÍ SE PUEDE VIVIR UNA VIDA PLENA')
         home.elements.text_program().should('have.text', 'En Viatris nos esforzamos diariamente por promover la calidad de vida de los pacientes con patologías cardiacas que cuentan con prescripción médica.')
         home.clickbtntextprogram()
@@ -54,7 +54,7 @@ describe('Test Home del Sitio Web', () => {
     it('Validación Sección Beneficios', () => {
 
         //Se valida contenido y elementos sección Beneficios
-        home.elements.img_benefits().should('have.css', 'background-image').should('include', '/ViatrisWeb/images/viatris_upjohn_beneficios.jpg')
+        home.elements.img_benefits().should('have.css', 'background-image').should('include', 'https://uatviatrisweb.conexus-group.com/images/viatris_upjohn_beneficios.jpg')
         home.elements.tittle_benefits().should('have.text', 'TENEMOS GRANDES BENEFICIOS')
         home.elements.text_benefits().should('have.text', 'Al comprar alguno de los productos que forman parte del programa Viatris a tu lado, en las farmacias participantes, los pacientes registrados podrán acumular puntos a su nombre.')
         home.clickbtntextbenefits()
@@ -65,7 +65,7 @@ describe('Test Home del Sitio Web', () => {
 
     it('Validación Sección Farmacias Participantes', () => {
         //Se valida contenido y elementos sección Farmacias Participantes
-        home.elements.img_pharmacy().should('have.css', 'background-image').should('include', '/ViatrisWeb/images/viatris_upjohn_farmacias.jpg')
+        home.elements.img_pharmacy().should('have.css', 'background-image').should('include', 'https://uatviatrisweb.conexus-group.com/images/viatris_upjohn_farmacias.jpg')
         home.elements.title_pharmacy().should('have.text', 'UNA CERCA DE USTED')
         home.elements.text_pharmacy().should('have.text', 'Al seleccionar uno de los países participantes en el siguiente menú se desplegará la lista de farmacias participantes y su respectiva dirección.')
         home.clickbtnpharmacy()

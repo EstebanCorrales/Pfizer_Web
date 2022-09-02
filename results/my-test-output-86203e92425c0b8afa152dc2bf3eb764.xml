@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="7" failures="7">
+  <testsuite name="Root Suite" timestamp="2022-09-02T16:43:40" tests="0" file="cypress\e2e\PfizerWeb\inscripcion.cy.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Test Sección Inscripción" timestamp="2022-09-02T16:43:40" tests="7" time="0.0000" failures="7">
+    <testcase name="Test Sección Inscripción Inscripción Sin Producto" time="0.0000" classname="Inscripción Sin Producto">
+      <failure message="Timed out retrying after 4050ms: `cy.click()` failed because the center of this element is hidden from view:
+
+`&lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot; id=&quot;btn_agregar_producto&quot;&gt;Agregar&lt;/button&gt;`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4050ms: `cy.click()` failed because the center of this element is hidden from view:
+
+`<button type="button" class="btn btn-primary" id="btn_agregar_producto">Agregar</button>`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at $Cy.ensureDescendents (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:162016:76)
+    at ensureDescendents (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147392:8)
+    at possiblyScrollMultipleTimes (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147499:22)
+    at scrollContainers (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147522:16)
+    at ensureDescendentsAndScroll (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147526:14)
+    at ensureElIsNotCovered (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147531:5)
+    at runAllChecks (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147721:52)
+    at retryActionability (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147745:16)
+    at tryCatcher (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:13012:23)
+    at Function.Promise.attempt.Promise.try (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:10286:29)
+    at whenStable (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:166930:65)
+    at https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:166385:14
+    at tryCatcher (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:13012:23)
+    at Promise._settlePromiseFromHandler (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:10947:31)
+    at Promise._settlePromise (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11004:18)
+    at Promise._settlePromise0 (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11049:10)
+    at Promise._settlePromises (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11129:18)
+    at Promise._fulfill (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11073:18)
+    at https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:12687:46
+From Your Spec Code:
+    at inscription.clickbtnAgregarProducto (https://uatviatrisweb.conexus-group.com/__cypress/tests?p=cypress\e2e\PfizerWeb\inscripcion.cy.js:338:29)
+    at Context.eval (https://uatviatrisweb.conexus-group.com/__cypress/tests?p=cypress\e2e\PfizerWeb\inscripcion.cy.js:156:17)]]></failure>
+    </testcase>
+    <testcase name="Test Sección Inscripción Inscripción Sin Médico" time="0.0000" classname="Inscripción Sin Médico">
+      <failure message="Timed out retrying after 4050ms: `cy.click()` failed because the center of this element is hidden from view:
+
+`&lt;a href=&quot;/InscripcionPacientes&quot;&gt;Inscrip...&lt;/a&gt;`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4050ms: `cy.click()` failed because the center of this element is hidden from view:
+
+`<a href="/InscripcionPacientes">Inscrip...</a>`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at $Cy.ensureDescendents (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:162016:76)
+    at ensureDescendents (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147392:8)
+    at possiblyScrollMultipleTimes (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147499:22)
+    at scrollContainers (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147522:16)
+    at ensureDescendentsAndScroll (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147526:14)
+    at ensureElIsNotCovered (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147531:5)
+    at runAllChecks (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147721:52)
+    at retryActionability (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147745:16)
+    at tryCatcher (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:13012:23)
+    at Function.Promise.attempt.Promise.try (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:10286:29)
+    at whenStable (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:166930:65)
+    at https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:166385:14
+    at tryCatcher (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:13012:23)
+    at Promise._settlePromiseFromHandler (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:10947:31)
+    at Promise._settlePromise (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11004:18)
+    at Promise._settlePromise0 (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11049:10)
+    at Promise._settlePromises (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11129:18)
+    at Promise._fulfill (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11073:18)
+    at https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:12687:46
+From Your Spec Code:
+    at Context.eval (https://uatviatrisweb.conexus-group.com/__cypress/tests?p=cypress\e2e\PfizerWeb\inscripcion.cy.js:161:45)]]></failure>
+    </testcase>
+    <testcase name="Test Sección Inscripción Inscripción Con Médico Otro Sin Completarlo" time="0.0000" classname="Inscripción Con Médico Otro Sin Completarlo">
+      <failure message="Timed out retrying after 4050ms: `cy.click()` failed because the center of this element is hidden from view:
+
+`&lt;a href=&quot;/InscripcionPacientes&quot;&gt;Inscrip...&lt;/a&gt;`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4050ms: `cy.click()` failed because the center of this element is hidden from view:
+
+`<a href="/InscripcionPacientes">Inscrip...</a>`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at $Cy.ensureDescendents (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:162016:76)
+    at ensureDescendents (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147392:8)
+    at possiblyScrollMultipleTimes (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147499:22)
+    at scrollContainers (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147522:16)
+    at ensureDescendentsAndScroll (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147526:14)
+    at ensureElIsNotCovered (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147531:5)
+    at runAllChecks (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147721:52)
+    at retryActionability (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147745:16)
+    at tryCatcher (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:13012:23)
+    at Function.Promise.attempt.Promise.try (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:10286:29)
+    at whenStable (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:166930:65)
+    at https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:166385:14
+    at tryCatcher (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:13012:23)
+    at Promise._settlePromiseFromHandler (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:10947:31)
+    at Promise._settlePromise (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11004:18)
+    at Promise._settlePromise0 (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11049:10)
+    at Promise._settlePromises (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11129:18)
+    at Promise._fulfill (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11073:18)
+    at https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:12687:46
+From Your Spec Code:
+    at Context.eval (https://uatviatrisweb.conexus-group.com/__cypress/tests?p=cypress\e2e\PfizerWeb\inscripcion.cy.js:171:45)]]></failure>
+    </testcase>
+    <testcase name="Test Sección Inscripción Inscripción Con Producto que No Esta en el País" time="0.0000" classname="Inscripción Con Producto que No Esta en el País">
+      <failure message="Timed out retrying after 4050ms: `cy.click()` failed because the center of this element is hidden from view:
+
+`&lt;a href=&quot;/InscripcionPacientes&quot;&gt;Inscrip...&lt;/a&gt;`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4050ms: `cy.click()` failed because the center of this element is hidden from view:
+
+`<a href="/InscripcionPacientes">Inscrip...</a>`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at $Cy.ensureDescendents (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:162016:76)
+    at ensureDescendents (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147392:8)
+    at possiblyScrollMultipleTimes (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147499:22)
+    at scrollContainers (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147522:16)
+    at ensureDescendentsAndScroll (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147526:14)
+    at ensureElIsNotCovered (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147531:5)
+    at runAllChecks (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147721:52)
+    at retryActionability (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147745:16)
+    at tryCatcher (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:13012:23)
+    at Function.Promise.attempt.Promise.try (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:10286:29)
+    at whenStable (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:166930:65)
+    at https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:166385:14
+    at tryCatcher (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:13012:23)
+    at Promise._settlePromiseFromHandler (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:10947:31)
+    at Promise._settlePromise (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11004:18)
+    at Promise._settlePromise0 (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11049:10)
+    at Promise._settlePromises (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11129:18)
+    at Promise._fulfill (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11073:18)
+    at https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:12687:46
+From Your Spec Code:
+    at Context.eval (https://uatviatrisweb.conexus-group.com/__cypress/tests?p=cypress\e2e\PfizerWeb\inscripcion.cy.js:183:45)]]></failure>
+    </testcase>
+    <testcase name="Test Sección Inscripción Inscripción Con un Médico que No Esta en el País" time="0.0000" classname="Inscripción Con un Médico que No Esta en el País">
+      <failure message="Timed out retrying after 4050ms: `cy.click()` failed because the center of this element is hidden from view:
+
+`&lt;a href=&quot;/InscripcionPacientes&quot;&gt;Inscrip...&lt;/a&gt;`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4050ms: `cy.click()` failed because the center of this element is hidden from view:
+
+`<a href="/InscripcionPacientes">Inscrip...</a>`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at $Cy.ensureDescendents (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:162016:76)
+    at ensureDescendents (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147392:8)
+    at possiblyScrollMultipleTimes (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147499:22)
+    at scrollContainers (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147522:16)
+    at ensureDescendentsAndScroll (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147526:14)
+    at ensureElIsNotCovered (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147531:5)
+    at runAllChecks (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147721:52)
+    at retryActionability (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147745:16)
+    at tryCatcher (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:13012:23)
+    at Function.Promise.attempt.Promise.try (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:10286:29)
+    at whenStable (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:166930:65)
+    at https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:166385:14
+    at tryCatcher (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:13012:23)
+    at Promise._settlePromiseFromHandler (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:10947:31)
+    at Promise._settlePromise (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11004:18)
+    at Promise._settlePromise0 (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11049:10)
+    at Promise._settlePromises (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11129:18)
+    at Promise._fulfill (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11073:18)
+    at https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:12687:46
+From Your Spec Code:
+    at Context.eval (https://uatviatrisweb.conexus-group.com/__cypress/tests?p=cypress\e2e\PfizerWeb\inscripcion.cy.js:192:45)]]></failure>
+    </testcase>
+    <testcase name="Test Sección Inscripción Inscripción Seleccionando Datos de un País y luego Cambiandolo" time="0.0000" classname="Inscripción Seleccionando Datos de un País y luego Cambiandolo">
+      <failure message="Timed out retrying after 4050ms: `cy.click()` failed because the center of this element is hidden from view:
+
+`&lt;a href=&quot;/InscripcionPacientes&quot;&gt;Inscrip...&lt;/a&gt;`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4050ms: `cy.click()` failed because the center of this element is hidden from view:
+
+`<a href="/InscripcionPacientes">Inscrip...</a>`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at $Cy.ensureDescendents (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:162016:76)
+    at ensureDescendents (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147392:8)
+    at possiblyScrollMultipleTimes (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147499:22)
+    at scrollContainers (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147522:16)
+    at ensureDescendentsAndScroll (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147526:14)
+    at ensureElIsNotCovered (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147531:5)
+    at runAllChecks (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147721:52)
+    at retryActionability (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147745:16)
+    at tryCatcher (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:13012:23)
+    at Function.Promise.attempt.Promise.try (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:10286:29)
+    at whenStable (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:166930:65)
+    at https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:166385:14
+    at tryCatcher (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:13012:23)
+    at Promise._settlePromiseFromHandler (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:10947:31)
+    at Promise._settlePromise (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11004:18)
+    at Promise._settlePromise0 (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11049:10)
+    at Promise._settlePromises (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11129:18)
+    at Promise._fulfill (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11073:18)
+    at https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:12687:46
+From Your Spec Code:
+    at Context.eval (https://uatviatrisweb.conexus-group.com/__cypress/tests?p=cypress\e2e\PfizerWeb\inscripcion.cy.js:202:45)]]></failure>
+    </testcase>
+    <testcase name="Test Sección Inscripción Inscripción Agregando mas de una vez el Mismo Producto y Médico" time="0.0000" classname="Inscripción Agregando mas de una vez el Mismo Producto y Médico">
+      <failure message="Timed out retrying after 4050ms: `cy.click()` failed because the center of this element is hidden from view:
+
+`&lt;a href=&quot;/InscripcionPacientes&quot;&gt;Inscrip...&lt;/a&gt;`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4050ms: `cy.click()` failed because the center of this element is hidden from view:
+
+`<a href="/InscripcionPacientes">Inscrip...</a>`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at $Cy.ensureDescendents (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:162016:76)
+    at ensureDescendents (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147392:8)
+    at possiblyScrollMultipleTimes (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147499:22)
+    at scrollContainers (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147522:16)
+    at ensureDescendentsAndScroll (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147526:14)
+    at ensureElIsNotCovered (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147531:5)
+    at runAllChecks (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147721:52)
+    at retryActionability (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:147745:16)
+    at tryCatcher (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:13012:23)
+    at Function.Promise.attempt.Promise.try (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:10286:29)
+    at whenStable (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:166930:65)
+    at https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:166385:14
+    at tryCatcher (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:13012:23)
+    at Promise._settlePromiseFromHandler (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:10947:31)
+    at Promise._settlePromise (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11004:18)
+    at Promise._settlePromise0 (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11049:10)
+    at Promise._settlePromises (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11129:18)
+    at Promise._fulfill (https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:11073:18)
+    at https://uatviatrisweb.conexus-group.com/__cypress/runner/cypress_runner.js:12687:46
+From Your Spec Code:
+    at Context.eval (https://uatviatrisweb.conexus-group.com/__cypress/tests?p=cypress\e2e\PfizerWeb\inscripcion.cy.js:216:45)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="53.6650" tests="24" failures="3">
+  <testsuite name="Root Suite" timestamp="2022-09-02T16:44:24" tests="0" file="cypress\e2e\PfizerWeb\productos.cy.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Test Sección Productos" timestamp="2022-09-02T16:44:24" tests="24" time="53.6650" failures="3">
+    <testcase name="Test Sección Productos Verificación Menús del Header" time="2.1430" classname="Verificación Menús del Header">
+    </testcase>
+    <testcase name="Test Sección Productos Validación Banner del Header, Icono y Logo" time="0.0000" classname="Validación Banner del Header, Icono y Logo">
+      <failure message="Timed out retrying after 4000ms: expected &apos;/images/viatris_upjohn_logos.png&apos; to include &apos;/ViatrisWeb/images/viatris_upjohn_logos.png&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '/images/viatris_upjohn_logos.png' to include '/ViatrisWeb/images/viatris_upjohn_logos.png'
+    at Context.eval (https://uatviatrisweb.conexus-group.com/__cypress/tests?p=cypress\e2e\PfizerWeb\productos.cy.js:172:56)]]></failure>
+    </testcase>
+    <testcase name="Test Sección Productos Validación Contenido de la sección medica" time="1.2960" classname="Validación Contenido de la sección medica">
+    </testcase>
+    <testcase name="Test Sección Productos Validación Dropdowm Productos y Lista Costa Rica" time="1.1330" classname="Validación Dropdowm Productos y Lista Costa Rica">
+    </testcase>
+    <testcase name="Test Sección Productos Lipitor 10mg x 30 Tabletas" time="0.0800" classname="Lipitor 10mg x 30 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Lipitor 20mg x 30 Tabletas" time="0.0510" classname="Lipitor 20mg x 30 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Lipitor 40mg x 30 Tabletas" time="0.0550" classname="Lipitor 40mg x 30 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Lipitor 80mg x 14 Tabletas" time="0.0490" classname="Lipitor 80mg x 14 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Norvasc 10mg x 30 Tabletas" time="0.0510" classname="Norvasc 10mg x 30 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Norvasc 5mg x 14 Tabletas" time="0.0510" classname="Norvasc 5mg x 14 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Norvasc 5mg x 30 Tabletas" time="0.0570" classname="Norvasc 5mg x 30 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Validación Dropdowm Productos y Lista Honduras" time="0.0000" classname="Validación Dropdowm Productos y Lista Honduras">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;div#div_productos.row.&gt;&apos; not to be &apos;visible&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<div#div_productos.row.>' not to be 'visible'
+    at Context.eval (https://uatviatrisweb.conexus-group.com/__cypress/tests?p=cypress\e2e\PfizerWeb\productos.cy.js:198:36)]]></failure>
+    </testcase>
+    <testcase name="Test Sección Productos Validación Dropdowm Productos y Lista Guatemala" time="0.0000" classname="Validación Dropdowm Productos y Lista Guatemala">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;div#div_productos.row.&gt;&apos; not to be &apos;visible&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<div#div_productos.row.>' not to be 'visible'
+    at Context.eval (https://uatviatrisweb.conexus-group.com/__cypress/tests?p=cypress\e2e\PfizerWeb\productos.cy.js:202:36)]]></failure>
+    </testcase>
+    <testcase name="Test Sección Productos Validación Dropdowm Productos y Lista República Dominicana" time="1.0580" classname="Validación Dropdowm Productos y Lista República Dominicana">
+    </testcase>
+    <testcase name="Test Sección Productos Caduet 5/10mg x 14 Tabletas" time="0.0960" classname="Caduet 5/10mg x 14 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Caduet 5/20mg x 14 Tabletas" time="0.0660" classname="Caduet 5/20mg x 14 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Caduet 5/40mg x 14 Tabletas" time="0.0610" classname="Caduet 5/40mg x 14 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Lipitor 10mg x 30 Tabletas" time="0.0640" classname="Lipitor 10mg x 30 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Lipitor 20mg x 30 Tabletas" time="0.0450" classname="Lipitor 20mg x 30 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Lipitor 40mg x 30 Tabletas" time="0.0570" classname="Lipitor 40mg x 30 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Lipitor 80mg x 14 Tabletas" time="0.0420" classname="Lipitor 80mg x 14 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Norvasc 10mg x 30 Tabletas" time="0.0560" classname="Norvasc 10mg x 30 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Norvasc 5mg x 30 Tabletas" time="0.0480" classname="Norvasc 5mg x 30 Tabletas">
+    </testcase>
+    <testcase name="Test Sección Productos Verificación Menús del Footer" time="47.1060" classname="Verificación Menús del Footer">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="13.9510" tests="6" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-09-02T16:43:13" tests="0" file="cypress\e2e\PfizerWeb\home.cy.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Test Home del Sitio Web" timestamp="2022-09-02T16:43:13" tests="6" time="13.9510" failures="1">
+    <testcase name="Test Home del Sitio Web Verificación Menús del Header" time="1.4690" classname="Verificación Menús del Header">
+    </testcase>
+    <testcase name="Test Home del Sitio Web Valida Sección del Header" time="0.0000" classname="Valida Sección del Header">
+      <failure message="Timed out retrying after 4000ms: expected &apos;/images/viatris_upjohn_logo.png&apos; to include &apos;https://uatviatrisweb.conexus-group.com/images/viatris_upjohn_logo.png&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '/images/viatris_upjohn_logo.png' to include 'https://uatviatrisweb.conexus-group.com/images/viatris_upjohn_logo.png'
+    at Context.eval (https://uatviatrisweb.conexus-group.com/__cypress/tests?p=cypress\e2e\PfizerWeb\home.cy.js:163:65)]]></failure>
+    </testcase>
+    <testcase name="Test Home del Sitio Web Validación Sección El Programa" time="0.6540" classname="Validación Sección El Programa">
+    </testcase>
+    <testcase name="Test Home del Sitio Web Validación Sección Beneficios" time="0.8700" classname="Validación Sección Beneficios">
+    </testcase>
+    <testcase name="Test Home del Sitio Web Validación Sección Farmacias Participantes" time="0.8880" classname="Validación Sección Farmacias Participantes">
+    </testcase>
+    <testcase name="Test Home del Sitio Web Verificación Menús del Footer" time="10.0700" classname="Verificación Menús del Footer">
+    </testcase>
+  </testsuite>
+</testsuites>

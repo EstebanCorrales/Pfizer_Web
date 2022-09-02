@@ -36,8 +36,8 @@ describe('Test Sección Farmacias', () => {
         cy.contains('Farmacias afiliadas').click()
 
         //Se valida que el Banner Principal cuente con una propiedad background-imgage y que el logo este. Ambos deben coincidir
-        pharmacy.elements.logo().should('have.attr', 'src').should('include', '/ViatrisWeb/images/viatris_upjohn_logos.png')
-        pharmacy.elements.bannerppal().should('have.css', 'background-image').should('include', '/ViatrisWeb/images/viatris_upjohn_farmacia_int.jpg')
+        pharmacy.elements.logo().should('have.attr', 'src').should('include', '/images/viatris_upjohn_logos.png')
+        pharmacy.elements.bannerppal().should('have.css', 'background-image').should('include', 'https://uatviatrisweb.conexus-group.com/images/viatris_upjohn_farmacia_int.jpg')
         pharmacy.elements.pharmacyIcon().should('have.text', 'FARMACIAS')
 
     });
@@ -57,7 +57,8 @@ describe('Test Sección Farmacias', () => {
             })
 
         });
-
+        //Pausa antes de continuar con las pruebas de Farmacias
+        cy.wait(2000)
     });
 
     //Para limpiar la consola en caso de fallar por petición
@@ -77,9 +78,9 @@ describe('Test Sección Farmacias', () => {
 
     });
     //Carga Farmacias CR para hacer el Should
+    
     pharmacycr.forEach(element => {
-        it(element.farmacia, function () {
-
+        it(element.farmacia, function () {            
             pharmacy.elements.pharmacydetails(element.farmacia).should("have.text", element.farmacia)
             pharmacy.elements.pharmacydetails(element.direccion).should("contain.text", element.direccion)
             pharmacy.elements.pharmacydetails(element.telefono).should("contain.text", element.telefono)
