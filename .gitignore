@@ -9,4 +9,3 @@ mochareports/report.json
 bdd-output
 /cypress/downloads
 cypress/results/*
-cypress/e2e/farmacias.cy.js
