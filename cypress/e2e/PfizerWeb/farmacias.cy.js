@@ -88,7 +88,7 @@ describe('Test Sección Farmacias', () => {
         });
 
     });
-
+/*
     
     it('Validación Dropdowm Farmacias y Lista Honduras', () => {
 
@@ -136,6 +136,8 @@ describe('Test Sección Farmacias', () => {
         });
 
     });
+
+    */
 
     it('Verificación Menús del Footer', () => {
 
